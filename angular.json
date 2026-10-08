@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "crud-angular": {
+    "book-network": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "crud-angular:build:production"
+              "buildTarget": "book-network:build:production"
             },
             "development": {
-              "buildTarget": "crud-angular:build:development"
+              "buildTarget": "book-network:build:development"
             }
           },
           "defaultConfiguration": "development"
